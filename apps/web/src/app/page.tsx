@@ -1,7 +1,13 @@
+import { Header } from "ui";
+
 export default function Page(): JSX.Element {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <h1>Hello world</h1>
-    </main>
+    <>
+      <Header />
+      <main className="flex h-[calc(100vh-100px)] flex-col items-center p-24 bg-slate-100">
+        <h1>Hello world</h1>
+        <small>(apps/mfe-statements)</small>
+      </main>
+    </>
   );
 }
