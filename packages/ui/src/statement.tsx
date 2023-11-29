@@ -4,7 +4,7 @@ export function Statement(): JSX.Element {
   const addToBalance = useStore((state) => state.addToBalance);
 
   return (
-    <section className="ui-flex ui-justify-center ui-flex-col">
+    <section className="ui-flex ui-justify-center ui-flex-col ui-px-8">
       <h1>Statement</h1>
       <small className="ui-text-[11px] ui-font-semibold">
         (apps/mfe-statements)

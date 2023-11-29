@@ -13,7 +13,9 @@ export function Header(): JSX.Element {
       </section>
 
       <section className="ui-flex ui-gap-2 ui-items-center">
-        <span className="ui-font-semibold">Balance: {balance}</span>
+        <span className="ui-mr-10">
+          Saldo: <b>{balance}</b>
+        </span>
 
         <button className="ui-btn ui-btn-primary" type="button">
           <IconUser className="ui-h-5 ui-w-5" />
