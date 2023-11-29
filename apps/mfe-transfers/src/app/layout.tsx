@@ -6,8 +6,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Statements",
-  description: "Micro Frontend Example: Statements",
+  title: "Transfers",
+  description: "Micro Frontend Example: Transfers",
 };
 
 export default function RootLayout({

@@ -24,23 +24,53 @@ importers:
         specifier: latest
         version: 1.10.16
 
-  apps/mfe-cards:
+  apps/mfe-statements:
     dependencies:
+      next:
+        specifier: 14.0.3
+        version: 14.0.3(react-dom@18.2.0)(react@18.2.0)
+      react:
+        specifier: ^18
+        version: 18.2.0
+      react-dom:
+        specifier: ^18
+        version: 18.2.0(react@18.2.0)
       ui:
         specifier: workspace:*
         version: link:../../packages/ui
     devDependencies:
+      '@types/node':
+        specifier: ^20
+        version: 20.10.0
+      '@types/react':
+        specifier: ^18
+        version: 18.2.21
+      '@types/react-dom':
+        specifier: ^18
+        version: 18.2.7
+      autoprefixer:
+        specifier: ^10.0.1
+        version: 10.4.15(postcss@8.4.31)
       eslint-config-custom:
         specifier: workspace:*
         version: link:../../packages/eslint-config-custom
+      postcss:
+        specifier: ^8
+        version: 8.4.31
       tailwind-config:
         specifier: workspace:*
         version: link:../../packages/tailwind-config
+      tailwindcss:
+        specifier: ^3.3.0
+        version: 3.3.3
       tsconfig:
         specifier: workspace:*
         version: link:../../packages/tsconfig
+      typescript:
+        specifier: ^5
+        version: 5.2.2
 
-  apps/mfe-statements:
+  apps/mfe-transfers:
     dependencies:
       next:
         specifier: 14.0.3
