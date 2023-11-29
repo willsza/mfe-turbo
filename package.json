@@ -2,8 +2,8 @@
   "private": true,
   "scripts": {
     "build": "turbo build",
-    "build:statements": "turbo run build --filter=statements...",
-    "build:transfers": "turbo run build --filter=transfers...",
+    "build:statements": "turbo build --scope=mfe-statements",
+    "build:transfers": "turbo build --scope=mfe-transfers",
     "dev": "turbo dev",
     "lint": "turbo lint",
     "clean": "turbo clean",
