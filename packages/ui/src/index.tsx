@@ -4,3 +4,5 @@ import "./styles.css";
 // components
 export * from "./card";
 export * from "./header";
+export * from "./shell";
+export * from "./statement";
