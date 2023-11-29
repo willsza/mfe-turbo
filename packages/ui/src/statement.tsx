@@ -14,7 +14,7 @@ export function Statement(): JSX.Element {
 
       <section>
         <button
-          className="ui-bg-blue-600 ui-text-white ui-inline-block ui-m-3 ui-rounded"
+          className="ui-bg-blue-600 ui-text-white ui-inline-block ui-m-3 ui-rounded ui-p-6 ui-text-xs"
           onClick={() => {
             addToBalance(100);
           }}
