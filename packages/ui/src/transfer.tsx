@@ -12,7 +12,7 @@ export function Transfer(): JSX.Element {
         </small>
       </h1>
 
-      <section>
+      <section className="ui-text-center">
         <button
           className="ui-bg-blue-600 ui-text-white ui-inline-block ui-w-[200px] ui-my-3 ui-rounded ui-py-3 ui-px-4"
           onClick={() => {
