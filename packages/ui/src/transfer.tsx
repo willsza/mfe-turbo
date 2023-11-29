@@ -1,14 +1,14 @@
 import { useStore } from "./store";
 
-export function Statement(): JSX.Element {
+export function Transfer(): JSX.Element {
   const addToBalance = useStore((state) => state.addToBalance);
 
   return (
     <section className="ui-justify-center ui-p-8">
       <h1 className="ui-flex ui-flex-col">
-        Statement
+        Transfers
         <small className="ui-text-[11px] ui-font-semibold">
-          (apps/mfe-statements)
+          (apps/mfe-transfers)
         </small>
       </h1>
 

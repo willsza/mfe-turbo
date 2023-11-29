@@ -1,11 +1,11 @@
 "use client";
 
-import { Shell, Statement } from "ui";
+import { Shell, Transfer } from "ui";
 
 export default function Home() {
   return (
     <Shell>
-      <Statement />
+      <Transfer />
     </Shell>
   );
 }
