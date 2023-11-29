@@ -14,13 +14,13 @@ export function Transfer(): JSX.Element {
 
       <section>
         <button
-          className="ui-bg-black ui-inline-block ui-m-3"
+          className="ui-bg-blue-600 ui-text-white ui-inline-block ui-m-3 ui-rounded"
           onClick={() => {
-            addToBalance(100);
+            addToBalance(300);
           }}
           type="button"
         >
-          Add Amount
+          Add 300
         </button>
       </section>
     </section>
