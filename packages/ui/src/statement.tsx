@@ -18,7 +18,6 @@ export function Statement(): JSX.Element {
           onClick={() => {
             addToBalance(100);
           }}
-          type="button"
         >
           Add 100
         </button>
